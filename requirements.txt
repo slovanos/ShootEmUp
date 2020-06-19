@@ -1,0 +1,7 @@
+numpy==1.18.1
+opencv==4.1.2
+mss==4.0.3
+pynput==1.4.2
+
+# You can install these by running:
+# $ pip3 install -r requirements.txt

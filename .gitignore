@@ -1,0 +1,12 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# My test files
+test*.py
+
+# My data folders:
+# Ignore whole folder
+Archive/
+Game/
+captures/
