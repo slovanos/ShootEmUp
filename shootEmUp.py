@@ -34,8 +34,6 @@ def on_press(key):
 
     if key == KeyCode.from_char('q'):
         stopThreads = True
-        #print('Stopps Listener already on press')
-        #return False
 
 
 def on_release(key):
@@ -64,7 +62,7 @@ def getCoordinates():
             if len(coordinates) >=2:
                 print('Done!')
                 mlistener.stop()
-                # return False       
+ 
 
     with MouseListener(on_click=onClick) as mlistener:
         mlistener.join()
@@ -121,15 +119,10 @@ def main():
         searchAndDestroyThread = Thread(target=searchAndDestroy, args=(lambda:stopThreads,roiCoords),
                                         kwargs={'timeOut': 180, 'verbose': False})
         searchAndDestroyThread.start()
-
        
         # Blocking main Thread until searchAndDestroyThread thread finish
         searchAndDestroyThread.join()
         
-        # According pynput documentation the keyboard Listener has already the flag daemon = True
-        # which means when the main thread ends. The daemon will be also killed
-        #kListenerThread.join()
-
         kListenerThread.stop() # killing in case searchAndDestroyThread is killed from inside (timeout)
         
         response = input('\nPlay another game (same ROI)? [press enter to continue or q to quit]: ')
@@ -143,14 +136,4 @@ def main():
 
 if  __name__ == '__main__':
     main()
-
-# the imshow function is not thread safe. A thread must acquire a lock before showing the image 
-# and release it afer the specified time in the waitKey function has passed.
-#
-# In python is really easy, define a lock in your code and add in the run method of your thread:
-
-# with image_lock: 
-#      cv2.imshow('image',self.image)
-#      cv2.waitKey(25)
-
 
