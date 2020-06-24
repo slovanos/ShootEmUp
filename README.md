@@ -5,13 +5,11 @@
 Apply image processing (OpenCV), threading, as well as mouse and keyboard control
 the fun way.
 
-<!-- 
-add youtube link?
--->
-
 ![Animated](https://raw.githubusercontent.com/slovanos/images/master/ShootEmUp.gif)
 
 https://github.com/slovanos/ShootEmUp
+
+**Watch it in action here:** https://youtu.be/RSg8Het9DUE
 
 ## Requirements:
 
