@@ -7,9 +7,7 @@ the fun way.
 
 ![Animated](https://raw.githubusercontent.com/slovanos/images/master/ShootEmUp.gif)
 
-https://github.com/slovanos/ShootEmUp
-
-**Watch it in action here:** https://youtu.be/RSg8Het9DUE
+**Watch it in action here:** [youtube](https://youtu.be/RSg8Het9DUE)
 
 ## Requirements:
 
@@ -40,6 +38,6 @@ Follow the instructions, enjoy
 **\*Note: you can try it here:**
 (or just google stickman madness)
 
-https://armorgames.com/play/707/stickman-madness
-https://cache.armorgames.com/files/games/sti-707.swf
-https://www.newgrounds.com/portal/view/323195
+[armorgames](https://armorgames.com/play/707/stickman-madness)
+[armorgames2](https://cache.armorgames.com/files/games/sti-707.swf)
+[newgrounds](https://www.newgrounds.com/portal/view/323195)
